@@ -7,7 +7,7 @@ def printTasks():
 
 def operations():
     while True:
-        print("\n1.Add (type 1 to add a new task) \n2.Delete(type 2 to delete a task task)\n3.Exit")
+        print("\n1.Add (type 1 to add a new task) \n2.Delete (type 2 to delete a task)\n3.Exit (type 3 to exit)")
         userInput = int(input(""))
 
         if userInput == 1:
@@ -27,7 +27,7 @@ def operations():
             break
 
         else:
-            print("Please enter a valid number ")
+            print("Please enter a valid number")
 
 print("Welcome to the To-Do App")
 printTasks()
